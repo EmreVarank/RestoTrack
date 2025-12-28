@@ -23,14 +23,16 @@ A robust and user-friendly Android application designed for small to medium-size
 ## 📸 Screen Structure
 
 - **Main Screen:** Overview of all tables and their current status.
-    - <img width="400" height="884" alt="image" src="https://github.com/user-attachments/assets/850245eb-7ee0-4c68-83a4-6dc4aa451d12" />
+    - <img width="400" height="883" alt="image" src="https://github.com/user-attachments/assets/bfe69893-bc59-4a6c-8cef-5e7914659e13" />
+
 
 - **Payment Screen (`OdemeActivity`):** 
     - Detailed order summary per table.
     - Payment processing (Nakit/POS).
     - Real-time display of total Cash and Bank balances.
     - Navigation back to the Main Menu.
-    - <img width="400" height="886" alt="image" src="https://github.com/user-attachments/assets/adbcd518-fc49-4534-b6d2-bdd56d4d6a65" />
+    - <img width="400" height="883" alt="image" src="https://github.com/user-attachments/assets/214eb047-0925-4f98-8497-b1afdfa186c3" />
+
 
 
 ## 📋 Installation
