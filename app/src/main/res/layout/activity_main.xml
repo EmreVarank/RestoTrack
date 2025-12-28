@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#52CCFF90"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_weight="10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvCorbaci"
+                style="@android:style/Widget.DeviceDefault.Light.TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:fontFamily="cursive"
+                android:text="ÇORBACI"
+                android:textAlignment="center"
+                android:textColor="#3F3F3F"
+                android:textColorLink="#009688"
+                android:textSize="80sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvAnaMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_weight="10"
+                android:fontFamily="sans-serif"
+                android:text="Ana Menü"
+                android:textAlignment="center"
+                android:textColor="#F44336"
+                android:textSize="48sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_weight="10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvBos2"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_weight="10"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="bottom"
+                android:text="Masa"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/masa1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Masa-1"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/masa2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Masa-2"
+                android:textColor="@color/black" />
+
+
+            <Button
+                android:id="@+id/masa3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Masa-3"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/masa4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Masa-4"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/masa5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Masa-5"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/masa6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Masa-6"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/masa7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Masa-7"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/masa8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Masa-8"
+
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvBos4"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvBos3"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_weight="10"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="bottom"
+                android:text="Yemek"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/yemek1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/checkbox_border"
+                android:fontFamily="serif"
+                android:text="Ezogelin"
+                android:padding="4dp" />
+
+            <CheckBox
+                android:id="@+id/yemek2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/checkbox_border"
+                android:fontFamily="serif"
+                android:text="Mercimek"
+                android:padding="4dp" />
+
+            <CheckBox
+                android:id="@+id/yemek3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/checkbox_border"
+                android:fontFamily="serif"
+                android:text="Tarhana"
+                android:padding="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/yemek4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/checkbox_border"
+                android:fontFamily="serif"
+                android:text="Paça"
+                android:padding="4dp" />
+
+            <CheckBox
+                android:id="@+id/yemek5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/checkbox_border"
+                android:fontFamily="serif"
+                android:text="İşkembe"
+                android:padding="4dp" />
+
+            <CheckBox
+                android:id="@+id/yemek6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/checkbox_border"
+                android:fontFamily="serif"
+                android:text="Yayla"
+                android:padding="4dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ucret"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Siparişi onayla"
+                app:backgroundTint="#d2691e"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvUcret"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- SOLDA BOŞLUK -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <!-- SAĞDA BUTON -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buOdemeSayfasi"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:onClick="buSayfa2"
+                android:text="Odeme Sayfası"
+                app:backgroundTint="#F44336" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#52CCFF90">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_weight="10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvCorbaci2"
+                style="@android:style/Widget.DeviceDefault.Light.TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:fontFamily="cursive"
+                android:text="ÇORBACI"
+                android:textAlignment="center"
+                android:textColor="#3F3F3F"
+                android:textColorLink="#009688"
+                android:textSize="80sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvOdeme"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_weight="10"
+                android:fontFamily="sans-serif"
+                android:text="Ödeme"
+                android:textAlignment="center"
+                android:textColor="#F44336"
+                android:textSize="48sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_weight="10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvBos11"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_weight="10"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="bottom"
+                android:text="Masa"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/masa11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Masa-1"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/masa12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Masa-2"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/masa13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Masa-3"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/masa14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Masa-4"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/masa15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Masa-5"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/masa16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Masa-6"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/masa17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Masa-7"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/masa18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Masa-8"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvBos19"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_weight="10"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="bottom"
+                android:text="Ödeme Türü"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buNakit"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Nakit"
+                app:backgroundTint="#1976D2" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/buKart"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="POS"
+                app:backgroundTint="#1976D2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvKasa"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tvBanka"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:orientation="horizontal">
+
+            <!-- SOLDA BOŞLUK -->
+            <View
+                android:layout_width="70dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <!-- SAĞDA BUTON -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:orientation="horizontal">
+
+            <!-- SOLDA BOŞLUK -->
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <!-- SAĞDA BUTON -->
+            <Button
+                android:id="@+id/buAnaMenu"
+                android:layout_width="145dp"
+                android:layout_height="match_parent"
+                android:onClick="buSayfa1"
+                android:text="Ana Menü"
+                app:backgroundTint="#F44336" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
